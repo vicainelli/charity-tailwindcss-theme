@@ -4,9 +4,95 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     link(rel="stylesheet" href="/css/style.css")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script")
 
-    title Document
+    title Charity Tailwindcss Theme
   body
 
-    h1.text-2xl.text-green Page Title Here
-    p.text-sm Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    header.w-full
+
+      .bg-yellow-darkest.py-4
+        .max-w-2xl.mx-auto.px-2
+          .flex.justify-between.items-center
+            div
+              h1.text-white.font-kaushan
+                | Charity
+
+            div
+              nav.-mx-4
+                a(href="").text-white.no-underline.uppercase.mx-4.tracking-wide.text-sm.font-bold.text-yellow-dark
+                  | Home
+                a(href="").text-white.no-underline.uppercase.mx-4.tracking-wide.text-sm.hover--text-yellow-dark
+                  | Causes
+                a(href="").text-white.no-underline.uppercase.mx-4.tracking-wide.text-sm.hover--text-yellow-dark
+                  | Events
+                a(href="").text-white.no-underline.uppercase.mx-4.tracking-wide.text-sm.hover--text-yellow-dark
+                  | Gallery
+                a(href="").text-white.no-underline.uppercase.mx-4.tracking-wide.text-sm.hover--text-yellow-dark
+                  | Shop
+                a(href="").text-white.no-underline.uppercase.mx-4.tracking-wide.text-sm.hover--text-yellow-dark
+                  | Contact
+
+
+            .text-right
+                a(href="#").bg-yellow-dark.text-yellow-darkest.py-3.px-4.text-sm.inline-block.no-underline.tracking-wide.uppercase.rounded
+                  | Donate Now
+
+      //- Hero
+      .bg-dog.bg-no-repeat.bg-cover.py-64
+        .max-w-2xl.mx-auto.px-2.flex.flex-wrap
+          div.w-1_3
+            h2.text-4xl.text-white
+              | Donate &amp; Help
+            p.text-4xl.font-light.tracking-wide.mt-2.text-grey-lightest
+              | Lorem ipsum dolor sit ame
+
+            p.text-lg.font-light.tracking-wide.my-8.leading-normal.text-white
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum obcaecati beatae officiis?
+
+            a(href="#").bg-yellow-dark.font-bold.text-yellow-darkest.p-4.text-base.inline-block.no-underline.tracking-wide.uppercase.rounded.border-b-2.border-yellow-darker
+              | Donate Now
+
+      div
+        .flex
+          a(href="").flex-1.py-8.bg-yellow-dark.text-yellow-darker.no-underline.hover--bg-yellow-darker.hover--text-white
+            .flex.justify-center
+              .mx-auto
+                span.uppercase.text-xs.font-bold Help Us By Donate
+                span.text-2xl.block Donate Now
+          a(href="").flex-1.py-8.bg-yellow-dark.text-yellow-darker.no-underline.hover--bg-yellow-darker.hover--text-white
+            .flex.justify-center
+              .mx-auto
+                span.uppercase.text-xs.font-bold Join With Us
+                span.text-2xl.block Become a Vonluteer
+          //- a(href="").flex-1.text-center.py-8
+            //- | Donate
+
+      div.py-16
+        .max-w-2xl.mx-auto.px-2
+          .max-w-md.mx-auto.mb-16
+              h2.text-center.text-3xl.leading-normal.text-grey-dark
+                | We are non-proft charity & NGO organization provide help to homeless dog!
+
+          .flex
+            .w-1_2.pr-8
+              .bg-grey-lightest.w-full.h-64
+            .w-1_2.pl-8
+              span.uppercase.tracking-wide.p-2.bg-grey-lightest.inline-block.mb-4.text-grey-light.text-xs.rounded
+                | Featured cause
+
+              h3.text-2xl.mb-2
+                | Lorem ipsum dolor sit
+              p.leading-normal
+                | Quasi sint ratione quaerat.Excepturi commodi perferendis quis cum voluptatum dolore assumenda ullam vel quae pariatur.
+
+              p.my-8
+                span.uppercase.mr-2.font-bold.text-sm
+                  | Raised:
+                span.text-grey-light.mr-2
+                  | $2.405: /
+                span.text-yellow-dark.font-bold
+                  | $2.500
+
+              a(href="").border.border-grey-lighter.no-underline.uppercase.text-xs.tracking-wide.px-8.py-3.inline-block.rounded-full.text-grey-light.font-bold.hover--bg-yellow-dark.hover--border-yellow-dark.hover--text-yellow-darker
+                | Donate now
