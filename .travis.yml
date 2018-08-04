@@ -9,8 +9,8 @@ cache:
 branches:
   only:
   - master
-# notifications:
-  # email: false
+notifications:
+  email: false
 before_script:
 - yarn
 script:
