@@ -762,5 +762,5 @@ p {
   */
 
 .bg-dog {
-  background-image: url('/images/dog.jpg');
+  background-image: url('charity-tailwindcss-theme/images/dog.jpg');
 }
