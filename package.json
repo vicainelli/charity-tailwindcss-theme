@@ -1,7 +1,7 @@
 {
-  "name": "pug-tailwindcss-javascript-gulp",
+  "name": "charity-tailwindcss-theme",
   "version": "1.0.0",
-  "description": "Pug + Tailwind CSS + Javascript + Gulp",
+  "description": "Theme Using: Pug + Tailwind CSS + Javascript + Gulp",
   "main": "index.js",
   "scripts": {
     "production": "gulp copy-images && gulp views && gulp css && gulp scripts"
